@@ -1,0 +1,204 @@
+[
+  {
+    "model": "pages.category",
+    "pk": 1,
+    "fields": {
+      "title": "Chairs",
+      "slug": "chairs"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 2,
+    "fields": {
+      "title": "Beds",
+      "slug": "beds"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 3,
+    "fields": {
+      "title": "Accesories",
+      "slug": "accesories"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 4,
+    "fields": {
+      "title": "Furniture",
+      "slug": "furniture"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 5,
+    "fields": {
+      "title": "Home Deco",
+      "slug": "home-deco"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 6,
+    "fields": {
+      "title": "Dressings",
+      "slug": "dressings"
+    }
+  },
+  {
+    "model": "pages.category",
+    "pk": 7,
+    "fields": {
+      "title": "Tables",
+      "slug": "tables"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 1,
+    "fields": {
+      "title": "Amado",
+      "slug": "amado"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 2,
+    "fields": {
+      "title": "Ikea",
+      "slug": "ikea"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 4,
+    "fields": {
+      "title": "Furniture inc",
+      "slug": "furniture-inc"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 5,
+    "fields": {
+      "title": "The factory",
+      "slug": "the-factory"
+    }
+  },
+  {
+    "model": "pages.brand",
+    "pk": 6,
+    "fields": {
+      "title": "Artdeco",
+      "slug": "artdeco"
+    }
+  },
+  {
+    "model": "pages.product",
+    "pk": 1,
+    "fields": {
+      "title": "Стул",
+      "descr": "Описание стула",
+      "price": 312,
+      "quantity": 654,
+      "is_available": true,
+      "category": 1,
+      "brand": 2,
+      "slug": "stul"
+    }
+  },
+  {
+    "model": "pages.product",
+    "pk": 2,
+    "fields": {
+      "title": "Цветок",
+      "descr": "Описание цветка",
+      "price": 132,
+      "quantity": 13,
+      "is_available": true,
+      "category": 2,
+      "brand": 5,
+      "slug": "cvetok"
+    }
+  },
+  {
+    "model": "pages.product",
+    "pk": 3,
+    "fields": {
+      "title": "Фурнитура",
+      "descr": "Описание фурнитура",
+      "price": 123,
+      "quantity": 32,
+      "is_available": false,
+      "category": 3,
+      "brand": 4,
+      "slug": "furnitura"
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 1,
+    "fields": {
+      "photo": "products/pro-big-3.jpg",
+      "product": 1
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 2,
+    "fields": {
+      "photo": "products/pro-big-4.jpg",
+      "product": 1
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 3,
+    "fields": {
+      "photo": "products/product2.jpg",
+      "product": 1
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 4,
+    "fields": {
+      "photo": "products/pro-big-2.jpg",
+      "product": 2
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 5,
+    "fields": {
+      "photo": "products/pro-big-1.jpg",
+      "product": 2
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 6,
+    "fields": {
+      "photo": "products/product1.jpg",
+      "product": 2
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 7,
+    "fields": {
+      "photo": "products/product2_vVJOHwx.jpg",
+      "product": 3
+    }
+  },
+  {
+    "model": "pages.productimage",
+    "pk": 8,
+    "fields": {
+      "photo": "products/product6.jpg",
+      "product": 3
+    }
+  }
+]
